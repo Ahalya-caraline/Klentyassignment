@@ -46,9 +46,8 @@ const header = document.querySelector('.header');
 // Slider
 const slider = function () {
   const slides = document.querySelectorAll('.slide');
-  const btnLeft = document.querySelector('.slider__btn--left');
-  const btnRight = document.querySelector('.slider__btn--right');
-  const dotContainer = document.querySelector('.dots');
+  const btnLeft = document.querySelector('.btn-left');
+  const btnRight = document.querySelector('.btn-right');
 
   let curSlide = 0;
   const maxSlide = slides.length;
